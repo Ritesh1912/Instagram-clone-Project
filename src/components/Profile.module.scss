@@ -1,0 +1,36 @@
+.Profile {
+    padding: 20px;
+    background-color: rgb(226, 225, 225);
+    display: flex;
+    width: 100%;
+
+    .username {
+        font-size: 23px;
+        padding: 10px;
+    }
+
+    .userPic {
+        width: 40%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        position: relative;
+        // border: 1px solid black;
+        padding: 20px;
+        img {
+            // position: absolute;
+            // right: 0;
+            border-radius: 50%;
+        }
+    }
+    .userInfo {
+        width: 60%;
+        .follow {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        padding-right: 20px;
+        padding: 30px;
+        // border: 1px solid black;
+    }
+}
